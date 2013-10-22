@@ -34,6 +34,9 @@
     <ClCompile Include="Ls3Icons_i.c">
       <Filter>Generated Files</Filter>
     </ClCompile>
+    <ClCompile Include="Ls3IconShlExt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -54,6 +57,9 @@
     <ClInclude Include="Ls3Icons_i.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
+    <ClInclude Include="Ls3IconShlExt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Ls3Icons.rc">
@@ -70,10 +76,33 @@
     <None Include="Ls3Icons.def">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="Ls3IconShlExt.rgs">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Midl Include="Ls3Icons.idl">
       <Filter>Source Files</Filter>
     </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\ls3icons.old\Ls3Icons\lod.ls3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\ls3icons.old\Ls3Icons\lod0ls3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\ls3icons.old\Ls3Icons\lod1ls3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\ls3icons.old\Ls3Icons\lod2ls3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\ls3icons.old\Ls3Icons\lod3ls3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\ls3icons.old\Ls3Icons\ls3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
