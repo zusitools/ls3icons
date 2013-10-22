@@ -1,0 +1,15 @@
+HKCR
+{
+	NoRemove CLSID
+	{
+		ForceRemove {9B289D33-F22D-459E-9D97-CD9FBB326D35} = s 'Ls3IconShlExt Class'
+		{
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{F52D7AB4-B85B-40C4-B088-7FD111889037}'
+			Version = s '1.0'
+		}
+	}
+}
