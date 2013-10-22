@@ -12,4 +12,14 @@ HKCR
 			Version = s '1.0'
 		}
 	}
+
+	NoRemove .ls3
+	{
+		ForceRemove DefaultIcon = s '%1'
+
+		NoRemove ShellEx
+		{
+			ForceRemove IconHandler = s '{9B289D33-F22D-459E-9D97-CD9FBB326D35}'
+		}
+	}
 }
