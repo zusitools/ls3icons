@@ -94,7 +94,7 @@ public:
 			cchMax);
 
 		// Default symbol is .ls3
-		*piIndex = IDI_LS3;
+		*piIndex = IDX_LS3;
 
 		size_t fileNameLength = wcslen(m_szFilename);
 		LPWSTR endOfString;
