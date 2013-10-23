@@ -126,12 +126,19 @@ public:
 			}
 		}
 
+		wsprintf(debug_buf, L"Ls3Icons: GetIconLocation() returning file %s, index %d\r\n", szIconFile, *piIndex);
+		OutputDebugString(debug_buf);
+
 		return S_OK;
 	}
 
 	STDMETHODIMP Extract(LPCTSTR pszFile, UINT nIconIndex, HICON* phiconLarge,
 		HICON* phiconSmall, UINT nIconSize)
 	{
+		wchar_t debug_buf[2048];
+		wsprintf(debug_buf, L"Ls3Icons: Extract() called for file %s, index %d\r\n", pszFile, nIconIndex);
+		OutputDebugString(debug_buf);
+
 		// The shell should extract the image from this DLL itself
 		return S_FALSE;
 	}
