@@ -15,7 +15,7 @@ HKCR
 
 	NoRemove .ls3
 	{
-		ForceRemove DefaultIcon = s '%1'
+		ForceRemove DefaultIcon = s '%%1'
 
 		NoRemove ShellEx
 		{
