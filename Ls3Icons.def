@@ -1,10 +1,9 @@
 ; Ls3Icons.def : Declares the module parameters.
 
-LIBRARY
+LIBRARY Ls3Icons
 
 EXPORTS
 	DllCanUnloadNow		PRIVATE
 	DllGetClassObject	PRIVATE
 	DllRegisterServer	PRIVATE
 	DllUnregisterServer	PRIVATE
-	DllInstall		PRIVATE

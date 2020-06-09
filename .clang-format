@@ -1,0 +1,12 @@
+BasedOnStyle: WebKit
+BraceWrapping:
+  AfterClass: true
+  AfterFunction: true
+  BeforeElse: true
+BreakBeforeBraces: Custom
+ColumnLimit: 116
+MaxEmptyLinesToKeep: 2
+SortIncludes: false
+SpaceBeforeInheritanceColon: false
+TabWidth: 4
+UseTab: ForContinuationAndIndentation

@@ -1,0 +1,41 @@
+﻿#include "resource.h"
+
+IDI_LODLS3              ICON                    "icons/lod.ls3.ico"
+IDI_LOD0LS3             ICON                    "icons/lod0ls3.ico"
+IDI_LOD1LS3             ICON                    "icons/lod1ls3.ico"
+IDI_LOD2LS3             ICON                    "icons/lod2ls3.ico"
+IDI_LOD3LS3             ICON                    "icons/lod3ls3.ico"
+IDI_LS3                 ICON                    "icons/ls3.ico"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Zusitools"
+            VALUE "FileDescription", "Shell extension to display icons for Zusi LS3 files"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Ls3Icons.dll"
+            VALUE "LegalCopyright", "Licensed under the GPL v2 or any later version"
+            VALUE "OriginalFilename", "Ls3Icons.dll"
+            VALUE "ProductName", "Ls3Icons"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
